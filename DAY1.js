@@ -1,5 +1,5 @@
 // FizzBuzz
-const FizzBuzz = (n) => {
+const fizzBuzz = (n) => {
     for (let i = 0; i <= n; i++) {
       if (i % 3 === 0 && i % 5 === 0) {
         console.log("FIZZBUZZ");
@@ -13,7 +13,7 @@ const FizzBuzz = (n) => {
     }
   };
   
-  // FizzBuzz(100);
+  // fizzBuzz(100);
   
   // reverse string
   const reverseStr = (str) => {
@@ -23,7 +23,7 @@ const FizzBuzz = (n) => {
   // reverseStr("hello");
   
   // Count Vowels
-  const CountVowels = (str) => {
+  const countVowels = (str) => {
     let count = 0;
     for (let i = 0; i < str.length; i++) {
       if (str[i].match(/[aeiouAEIOU]/g)) count++;
@@ -31,4 +31,4 @@ const FizzBuzz = (n) => {
     console.log(count);
   };
   
-  // CountVowels("Hello World");
+  // countVowels("Hello World");
